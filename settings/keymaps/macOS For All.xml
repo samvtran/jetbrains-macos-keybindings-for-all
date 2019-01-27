@@ -436,7 +436,7 @@
     <keyboard-shortcut first-keystroke="control alt shift O"/>
   </action>
   <action id="AutoIndentLines">
-    <keyboard-shortcut first-keystroke="control alt shift I"/>
+    <keyboard-shortcut first-keystroke="control alt I"/>
   </action>
 
   <action id="MinimizeCurrentWindow">

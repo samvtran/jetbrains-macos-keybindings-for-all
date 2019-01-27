@@ -34,7 +34,6 @@ If you notice any issues, please report them here!
 | ActivateStructureToolWindow | `Command-7` | `Control-Alt-7` |
 | ActivateHierarchyToolWindow | `Command-8` | `Control-Alt-8` |
 | ActivateVersionControlToolWindow | `Command-9` | `Control-Alt-9` |
-| AutoIndentLines | `Control-Alt-I` | `Control-Alt-Shift-I` |
 | Back | `Command-[` <br> `Command-Alt-Left` | `Control-[` |
 | ChangesView.Move | `Command-Shift-M` | `Control-Shift-M` |
 | ChooseDebugConfiguration | `Control-Alt-D` | `Control-Alt-Shift-D` |
