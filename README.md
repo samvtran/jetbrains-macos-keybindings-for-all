@@ -1,5 +1,7 @@
 # JetBrains macOS Keymap for Windows and Linux
 
+[Cheatsheet](cheatsheet.pdf)
+
 This repo converts the lovely Mac OS X 10.5+ keymap in JetBrains
 IDEs from macOS-specific bindings to ones without `meta` (i.e., the Command/splat/cloverleaf interchange from hell).
 
@@ -72,7 +74,7 @@ If you notice any issues, please report them here!
 | Generate | `Command-N` | `Control-N` |
 | GotoChangedFile | `Command-O` | `Control-O` |
 | GotoClass | `Command-O` | `Control-O` |
-| GotoFile | `Command-Shift-O` | `Command-Shift-O` |
+| GotoFile | `Command-Shift-O` | `Control-Shift-O` |
 | GotoLine | `Command-L` | `Control-L` |
 | GotoNextElementUnderCaretUsage | `Control-Alt-Down` | `Alt-Shift-Down` |
 | GotoPrevElementUnderCaretUsage | `Control-Alt-Up` | `Alt-Shift-Up` |
