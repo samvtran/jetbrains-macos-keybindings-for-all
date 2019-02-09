@@ -430,7 +430,7 @@
     <keyboard-shortcut first-keystroke="control I"/>
   </action>
   <action id="OverrideMethods">
-    <keyboard-shortcut first-keystroke="control shift O"/>
+    <keyboard-shortcut first-keystroke="alt shift O"/>
   </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="control alt shift O"/>

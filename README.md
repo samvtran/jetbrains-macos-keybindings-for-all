@@ -89,7 +89,7 @@ If you notice any issues, please report them here!
 | NextProjectWindow | ``Command-Alt-` `` | ``Control-Alt-` `` |
 | NextTag | `Command-Shift-]`<br>`Control-Right` | `Control-Shift-]` |
 | OptimizeImports | `Control-Alt-O` | `Control-Alt-Shift-O` |
-| OverrideMethods | `Control-O` | `Control-Shift-O` |
+| OverrideMethods | `Control-O` | `Alt-Shift-O` |
 | PreviousEditorTab | `Control-Shift-Left` | `Control-Alt-Shift-Left` |
 | PreviousProjectWindow | ``Command-Alt-Shift-` `` | ``Control-Alt-Shift-` `` |
 | PreviousTab | `Command-Shift-[`<br>`Control-Left` | `Control-Shift-[` |
