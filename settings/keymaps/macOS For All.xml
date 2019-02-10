@@ -624,4 +624,9 @@
     <keyboard-shortcut first-keystroke="PAGE_UP"/>
     <keyboard-shortcut first-keystroke="control UP"/>
   </action>
+
+  <!-- New keybindings -->
+  <action id="Vcs.UpdateProject">
+    <keyboard-shortcut first-keystroke="ctrl alt shift t" />
+  </action>
 </keymap>

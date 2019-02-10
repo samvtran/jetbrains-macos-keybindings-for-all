@@ -1,6 +1,6 @@
 # JetBrains macOS Keymap for Windows and Linux
 
-[Cheatsheet](cheatsheet.pdf)
+[Cheatsheet](Keymap-macOS For All.pdf)
 
 This repo converts the lovely Mac OS X 10.5+ keymap in JetBrains
 IDEs from macOS-specific bindings to ones without `meta` (i.e., the Command/splat/cloverleaf interchange from hell).
@@ -115,6 +115,7 @@ If you notice any issues, please report them here!
 | Vcs.MoveChangedLinesToChangelist | `Command-Shift-M` | `Control-Shift-M` |
 | Vcs.QuickListPopupAction | `Control-V` | `Control-Shift-V` |
 | Vcs.ShowMessageHistory | `Command-E` | `Control-E` |
+| Vcs.UpdateProject | `Command-T` | `Control-Alt-Shift-T` |
 | VcsHistory.ShowAllAffected | `Command-Control-A` | `Control-Alt-A` |
 | ZoomCurrentWindow | `Command-Control-=` | `Control-=` |
 
