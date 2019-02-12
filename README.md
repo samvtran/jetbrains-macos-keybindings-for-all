@@ -24,16 +24,16 @@ If you notice any issues, please report them here!
 
 | Actions | Mac OS X 10.5+ Keybindings | New Keybindings |
 | --: | -- | -- |
-| ActivateMessageToolWindow | `Command-0` | `Control-Alt-0` |
-| ActivateProjectToolWindow | `Command-1` | `Control-Alt-1` |
-| ActivateFavoritesToolWindow | `Command-2` | `Control-Alt-2` |
-| ActivateFindToolWindow | `Command-3` | `Control-Alt-3` |
-| ActivateRunToolWindow | `Command-4` | `Control-Alt-4` |
-| ActivateDebugToolWindow | `Command-5` | `Control-Alt-5` |
-| ActivateTODOToolWindow | `Command-6` | `Control-Alt-6` |
-| ActivateStructureToolWindow | `Command-7` | `Control-Alt-7` |
-| ActivateHierarchyToolWindow | `Command-8` | `Control-Alt-8` |
-| ActivateVersionControlToolWindow | `Command-9` | `Control-Alt-9` |
+| ActivateMessageToolWindow | `Command-0` | `Alt-0` |
+| ActivateProjectToolWindow | `Command-1` | `Alt-1` |
+| ActivateFavoritesToolWindow | `Command-2` | `Alt-2` |
+| ActivateFindToolWindow | `Command-3` | `Alt-3` |
+| ActivateRunToolWindow | `Command-4` | `Alt-4` |
+| ActivateDebugToolWindow | `Command-5` | `Alt-5` |
+| ActivateTODOToolWindow | `Command-6` | `Alt-6` |
+| ActivateStructureToolWindow | `Command-7` | `Alt-7` |
+| ActivateHierarchyToolWindow | `Command-8` | `Alt-8` |
+| ActivateVersionControlToolWindow | `Command-9` | `Alt-9` |
 | Back | `Command-[` <br> `Command-Alt-Left` | `Control-[` |
 | ChangesView.Move | `Command-Shift-M` | `Control-Shift-M` |
 | ChooseDebugConfiguration | `Control-Alt-D` | `Control-Alt-Shift-D` |
