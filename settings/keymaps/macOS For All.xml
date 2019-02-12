@@ -405,7 +405,7 @@
     <keyboard-shortcut first-keystroke="control L"/>
   </action>
   <action id="GotoRelated">
-    <keyboard-shortcut first-keystroke="control shift UP"/>
+    <keyboard-shortcut first-keystroke="control alt HOME"/>
   </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt SPACE"/>
