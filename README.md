@@ -1,6 +1,6 @@
 # JetBrains macOS Keymap for Windows and Linux
 
-[Cheatsheet](Keymap-macOS For All.pdf)
+[Cheatsheet](Keymap-macOS%20For%20All.pdf)
 
 This repo converts the lovely Mac OS X 10.5+ keymap in JetBrains
 IDEs from macOS-specific bindings to ones without `meta` (i.e., the Command/splat/cloverleaf interchange from hell).
