@@ -7,18 +7,16 @@ IDEs from macOS-specific bindings to ones without `meta` (i.e., the Command/spla
 
 While some keybindings are close to their original, others have more modifier keys or different bindings altogether to avoid clashing.
 
+## Build
+Follow JetBrain's [guide](https://www.jetbrains.org/intellij/sdk/docs/tutorials/build_system/prerequisites.html) for using Gradle for plugins development. 
+
 ## Installation
 
-Go to File -> Import Settings... in your JetBrains IDE of choice and
-point it to the `settings.zip` file in this repo.
-
-Alternatively, modify the keymap for your needs and zip up the settings directory into a zip file that looks like:
-- keymaps
-  - macOS For All.xml
-- IntelliJ IDEA Global Settings
+Install the plugin from the [plugin marketplace](https://plugins.jetbrains.com/plugin/13968-macos-for-all) or
+grab the zip file from the [latest release](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/releases/latest) and install manually.
 
 ## Issues
-If you notice any issues, please report them here!
+If you notice any issues, please report them [here](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issues/new)!
 
 ## Key Updates
 
