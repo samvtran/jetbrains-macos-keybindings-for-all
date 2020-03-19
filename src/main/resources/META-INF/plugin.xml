@@ -1,7 +1,6 @@
-<idea-plugin>
+<idea-plugin url="https://github.com/samvtran/jetbrains-macos-keybindings-for-all">
   <id>com.samvtran.plugins.macosforallkeymap</id>
   <name>macOS For All</name>
-  <version>1.0.0</version>
   <vendor email="jb@samvtran.com" url="https://github.com/samvtran">samvtran</vendor>
 
   <description><![CDATA[
@@ -11,14 +10,6 @@
       If you notice any conflicting shortcuts or have a suggestion for a new keybinding, please
       <a href="https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issues/new">open an issue on GitHub</a>.
     ]]></description>
-
-  <change-notes><![CDATA[
-      Initial Release!<br>
-      <ul>
-        <li>Most Command-key shortcuts remapped to similar shortcuts with some combination of Ctrl/Alt/Shift</li>
-      </ul>
-    ]]>
-  </change-notes>
 
   <!-- 2017.3 -->
   <idea-version since-build="173.0"/>
