@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>com.samvtran.plugins.macosforallkeymap</id>
+  <name>macOS For All</name>
+  <version>1.0.0</version>
+  <vendor email="jb@samvtran.com" url="https://github.com/samvtran">samvtran</vendor>
+
+  <description><![CDATA[
+      A keymap for Windows and Linux (and macOS if you really want!) that rebinds common macOS 10.5+
+      shortcuts to non-Command keys. Some shortcuts aren't 1:1 replacements of modifier keys, so please
+      check the <a href="https://github.com/samvtran/jetbrains-macos-keybindings-for-all#key-updates">key updates table</a>.<br><br>
+      If you notice any conflicting shortcuts or have a suggestion for a new keybinding, please
+      <a href="https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issues/new">open an issue on GitHub</a>.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Initial Release!<br>
+      <ul>
+        <li>Most Command-key shortcuts remapped to similar shortcuts with some combination of Ctrl/Alt/Shift</li>
+      </ul>
+    ]]>
+  </change-notes>
+
+  <!-- 2017.3 -->
+  <idea-version since-build="173.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledKeymap file="macOS for All.xml" />
+  </extensions>
+
+  <actions />
+</idea-plugin>
