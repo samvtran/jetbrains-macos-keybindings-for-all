@@ -17,7 +17,7 @@
   <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <bundledKeymap file="macOS for All.xml" />
+    <bundledKeymap file="macOS For All.xml" />
   </extensions>
 
   <actions />

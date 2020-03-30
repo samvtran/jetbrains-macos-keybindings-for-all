@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.samvtran"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -25,9 +25,8 @@ configure<JavaPluginConvention> {
 }
 tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
     changeNotes("""
-      Initial Release!<br>
       <ul>
-        <li>Most Command-key shortcuts remapped to similar shortcuts with some combination of Ctrl/Alt/Shift</li>
+        <li>Fixes an issue where IDEs wouldn't find the keymap on startup by aligning keymap filename case to the plugin name ("macOS For All" with an uppercase F)</li>
       </ul>""")
 }
 tasks.withType<PublishTask> {
