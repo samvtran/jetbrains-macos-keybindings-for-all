@@ -26,7 +26,7 @@ configure<JavaPluginConvention> {
 tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
     changeNotes("""
       <ul>
-        <li>Fixes an issue where IDEs wouldn't find the keymap on startup by aligning keymap filename case to the plugin name ("macOS For All" with an uppercase F)</li>
+        <li>Increasing supported IDE range from 2019.* to 2017 to 2020+</li>
       </ul>""")
     sinceBuild("173.*")
     untilBuild("202.*")
