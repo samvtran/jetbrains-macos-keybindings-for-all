@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.samvtran"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -28,6 +28,8 @@ tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml
       <ul>
         <li>Fixes an issue where IDEs wouldn't find the keymap on startup by aligning keymap filename case to the plugin name ("macOS For All" with an uppercase F)</li>
       </ul>""")
+    sinceBuild("173.*")
+    untilBuild("202.*")
 }
 tasks.withType<PublishTask> {
     token(findProperty("intellijPublishToken"))
