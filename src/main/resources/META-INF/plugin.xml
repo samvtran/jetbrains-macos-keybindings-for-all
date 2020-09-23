@@ -11,8 +11,8 @@
       <a href="https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issues/new">open an issue on GitHub</a>.
     ]]></description>
 
-  <!-- 2017.3 -->
-  <idea-version since-build="173.0"/>
+  <!-- 2020.2 -->
+  <idea-version since-build="202.0"/>
 
   <depends>com.intellij.modules.lang</depends>
 
