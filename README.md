@@ -1,6 +1,6 @@
 # JetBrains macOS Keymap for Windows and Linux
 
-![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/13968-macos-for-all?style=for-the-badge)
+[![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/13968-macos-for-all?style=for-the-badge)](https://plugins.jetbrains.com/plugin/13968-macos-for-all)
 
 [Cheatsheet](Keymap-macOS%20For%20All.pdf)
 
