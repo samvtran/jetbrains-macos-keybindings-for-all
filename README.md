@@ -180,7 +180,7 @@ This list may change over time.
 
 | Actions | Keybindings | Reason |
 | --: | -- | -- |
-| PrevWindow/NextWindow | ``Command+Shift+` ``/``Command+` `` | Workaround for [platform-specific issues](https://youtrack.jetbrains.com/issue/IDEA-217613). For Linux, use ``Alt-` `` for supported WMs. For Windows, try something like [this AutoHotKey script](https://gist.github.com/samvtran/3b11cdb829ea5da9f166591752123816) for similar behavior. |
+| PrevWindow/NextWindow | ``Command+Shift+` ``/``Command+` `` | Workaround for [platform-specific issues](https://youtrack.jetbrains.com/issue/IDEA-217613). For Linux, use ``Alt-` `` in supported WMs. For Windows, try [AltBacktick](https://github.com/akiver/AltBacktick) for a direct replacement or [an AutoHotKey script](https://gist.github.com/samvtran/3b11cdb829ea5da9f166591752123816) for more customizable behavior. |
 | EmojiAndSymbols | `Command-Control-Space` | This is rebound to `Control-Alt-Shift-Space` but [does not function outside macOS](https://github.com/JetBrains/intellij-community/blob/b69a466631b01c408897e1b9f4159f6632470a0b/platform/platform-impl/src/com/intellij/ide/actions/MacEmojiAndSymbolsInputAction.java). For Windows, use `Super+;` or `Super+.` to activate the built-in emoji picker. |
 
 
