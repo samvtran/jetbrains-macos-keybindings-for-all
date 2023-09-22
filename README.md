@@ -1,3 +1,7 @@
+> 👋 **Hello from Sept 2023!**
+> I use this keymap every single day. I hope you'll take the lack of updates as a testament to the stability
+> of JetBrains IDEs' keyboard workflow despite recent overhauls to the GUI. As always, if you notice any issues, please [let me know](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issues/new).
+
 # JetBrains macOS Keymap for Windows and Linux
 
 [![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/13968-macos-for-all?style=for-the-badge)](https://plugins.jetbrains.com/plugin/13968-macos-for-all)
@@ -10,7 +14,7 @@ IDEs from macOS-specific bindings to ones without `meta` (i.e., the Command/spla
 While some keybindings are close to their original, others have more modifier keys or different bindings altogether to avoid conflicts.
 
 ## Build
-Follow JetBrain's [guide](https://www.jetbrains.org/intellij/sdk/docs/tutorials/build_system/prerequisites.html) for using Gradle for plugin development. 
+Follow JetBrains' [guide](https://www.jetbrains.org/intellij/sdk/docs/tutorials/build_system/prerequisites.html) for using Gradle for plugin development. 
 
 ## Installation
 
