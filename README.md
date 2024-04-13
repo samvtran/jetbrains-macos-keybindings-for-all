@@ -1,6 +1,7 @@
-> 👋 **Hello from Sept 2023!**
-> I use this keymap every single day. I hope you'll take the lack of updates as a testament to the stability
-> of JetBrains IDEs' keyboard workflow despite recent overhauls to the GUI. As always, if you notice any issues, please [let me know](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issues/new).
+> [!TIP]
+> 👋 **Hello from April 2024!**
+> I use this keymap every single day. Please take the lack of updates as a testament to the stability
+> of keyboard workflows despite recent UI overhauls across the JetBrains portfolio. If you notice any issues, please [let me know](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issues/new).
 
 # JetBrains macOS Keymap for Windows and Linux
 
@@ -8,8 +9,7 @@
 
 [Cheatsheet](Keymap-macOS%20For%20All.pdf)
 
-This repo converts the lovely Mac OS X 10.5+ keymap in JetBrains
-IDEs from macOS-specific bindings to ones without `meta` (i.e., the Command/splat/cloverleaf interchange from hell).
+This repo converts the macOS keymap (previously known as Mac OS X 10.5+) in JetBrains IDEs from macOS-specific shortcuts to shortcuts without `meta` (i.e., the Command/splat/cloverleaf interchange from hell).
 
 While some keybindings are close to their original, others have more modifier keys or different bindings altogether to avoid conflicts.
 
@@ -22,14 +22,14 @@ Install the plugin from the [plugin marketplace](https://plugins.jetbrains.com/p
 grab the zip file from the [latest release](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/releases/latest) and install manually.
 
 ## Release
-For release tasks, the INTELLIJ_PUBLISH_TOKEN environment variable should be available.
+For release tasks, the `INTELLIJ_PUBLISH_TOKEN` environment variable should be available.
 
 ## Issues
 If you notice any issues, please report them [here](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issues/new)!
 
 ## Key Updates
 
-| Actions | Mac OS X 10.5+ Keybindings | New Keybindings |
+| Actions | macOS Keybindings | New Keybindings |
 | --: | -- | -- |
 | ActivateProjectToolWindow | `Command-1` | `Alt-1` |
 | ActivateFavoritesToolWindow | `Command-2` | `Alt-2` |
@@ -129,7 +129,7 @@ If you notice any issues, please report them [here](https://github.com/samvtran/
 
 ## Removed Keybindings
 
-| Actions | Mac OS X 10.5+ Keybindings | Alternatives |
+| Actions | macOS Keybindings | Alternatives |
 | --: | -- | -- |
 | $Delete | `Command-Backspace` | Just backspace |
 | Back | `Command-Alt-Left` | `Control-[` |
@@ -154,9 +154,9 @@ If you notice any issues, please report them [here](https://github.com/samvtran/
 
 ## Default Implicit Keybindings
 These keybindings are set by the [`$default`](https://github.com/JetBrains/intellij-community/blob/master/platform/platform-resources/src/keymaps/%24default.xml) keymap
-and are, therefore, not included even though the Mac OS X 10.5+ keymap may define them explicitly.
+and are not currently included, even if the macOS keymap defines them explicitly.
 
-| Actions | Mac OS X 10.5+ Keybindings | $default Keybindings |
+| Actions | macOS Keybindings | $default Keybindings |
 | --: | -- | -- |
 | ChangesView.GroupBy.Directory | `Control-P` | `Control-Alt-P` |
 | ChangesView.GroupBy.Module | `Control-M` | `Control-Alt-M` |
@@ -184,18 +184,18 @@ This list may change over time.
 
 | Actions | Keybindings | Reason |
 | --: | -- | -- |
-| PrevWindow/NextWindow | ``Command+Shift+` ``/``Command+` `` | Workaround for [platform-specific issues](https://youtrack.jetbrains.com/issue/IDEA-217613). For Linux, use ``Alt-` `` in supported WMs. For Windows, try [AltBacktick](https://github.com/akiver/AltBacktick) for a direct replacement or [an AutoHotKey script](https://gist.github.com/samvtran/3b11cdb829ea5da9f166591752123816) for more customizable behavior. |
+| PrevWindow/NextWindow | ``Command+Shift+` ``/``Command+` `` | Workaround for [platform-specific issues](https://youtrack.jetbrains.com/issue/IDEA-217613). For Linux, use ``Alt-`​`` in supported WMs. For Windows, try [AltBacktick](https://github.com/akiver/AltBacktick) or [window-switcher](https://github.com/sigoden/window-switcher). |
 | EmojiAndSymbols | `Command-Control-Space` | This is rebound to `Control-Alt-Shift-Space` but [does not function outside macOS](https://github.com/JetBrains/intellij-community/blob/b69a466631b01c408897e1b9f4159f6632470a0b/platform/platform-impl/src/com/intellij/ide/actions/MacEmojiAndSymbolsInputAction.java). For Windows, use `Super+;` or `Super+.` to activate the built-in emoji picker. |
 
 
 ## FAQ
 ### Oh no! My favorite keybinding changed after an update! What do I do?
-This project tries to follow the Mac OS X 10.5+ keybindings as closely as possible.
+This project tries to follow the macOS keybindings (still called "Mac OS X 10.5+" in the JetBrains codebase) as closely as possible.
 As new UI elements and IDE features are added, JetBrains may add and remove keybindings to
 better match their evolving feature set. If you find that your muscle memory is getting in the way
 of a new binding, make a copy of this keymap for your own custom shortcuts.
 
 ### I just switched from macOS to Linux/Windows. What can I do to make the transition easier?
-Use a plugin like [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant)
-or [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) to help you learn new
-shortcuts.
+If you don't use Caps Lock very often, try rebinding it to Command on macOS and Control on Windows and Linux for more consistent hand and finger positioning.
+
+Use a plugin like [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) to help with learning new shortcuts.
