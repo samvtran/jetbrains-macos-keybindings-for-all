@@ -1,15 +1,9 @@
+# Changelog
+
 ## [Unreleased]
-### Added
 
-### Changed
+[Unreleased]: https://github.com/samvtran/jetbrains-macos-keybindings-for-all/commits
 
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
 ## [2.0.0]
 ### Added
 - Updated to match latest keymap as of [367cd5f](https://github.com/JetBrains/intellij-community/blob/fb0eb45e7d27dffbb490030c623bcf65eb402aeb/platform/platform-resources/src/keymaps/Mac%20OS%20X%2010.5%2B.xml).
