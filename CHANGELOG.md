@@ -8,6 +8,10 @@
 - Build dependencies updates
 - Plugin signing added
 - Adds GitHub Actions workflows
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>←</kbd> rebound from `PrevSplitter` to `Back`
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>→</kbd> rebound from `NextSplitter` to `Forward`
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>PageDown</kbd> bound to `NextSplitter`
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>PageUp</kbd> bound to `PrevSplitter`
 
 ## [2.0.0] - 2020-09-24
 
