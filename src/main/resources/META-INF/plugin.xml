@@ -4,7 +4,7 @@
   <vendor email="jb@samvtran.com" url="https://github.com/samvtran">samvtran</vendor>
 
   <description><![CDATA[
-      A keymap for Windows and Linux (and macOS if you really want!) that rebinds common macOS 10.5+
+      A keymap for Windows and Linux that rebinds common macOS 10.5+
       shortcuts to non-Command keys. Some shortcuts aren't 1:1 replacements of modifier keys, so please
       check the <a href="https://github.com/samvtran/jetbrains-macos-keybindings-for-all#key-updates">key updates table</a>.<br><br>
       If you notice any conflicting shortcuts or have a suggestion for a new keybinding, please

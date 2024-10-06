@@ -12,9 +12,8 @@
 
 [Cheatsheet](Keymap-macOS%20For%20All.pdf)
 
-This repo converts the macOS keymap (previously known as Mac OS X 10.5+) in JetBrains IDEs from
-macOS-specific shortcuts to shortcuts without `meta` (i.e., the Command/splat/cloverleaf interchange
-from hell).
+This plugin converts the macOS keymap (previously known as Mac OS X 10.5+) in JetBrains IDEs from
+macOS-specific shortcuts to shortcuts without the Command (⌘) key for use on Windows and Linux.
 
 While some keybindings are close to their original, others have more modifier keys or different
 bindings altogether to avoid conflicts.
