@@ -229,7 +229,7 @@
     <keyboard-shortcut first-keystroke="control shift RIGHT"/>
   </action>
   <action id="ExportToTextFile">
-    <keyboard-shortcut first-keystroke="control shift O"/>
+    <keyboard-shortcut first-keystroke="control alt shift O"/>
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END"/>
