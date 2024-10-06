@@ -7,6 +7,7 @@
 ### Changed
 - Build dependencies updates
 - Plugin signing added
+- Adds GitHub Actions workflows
 
 ## [2.0.0] - 2020-09-24
 
