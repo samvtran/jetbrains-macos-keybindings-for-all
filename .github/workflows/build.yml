@@ -82,6 +82,8 @@ jobs:
   # Run plugin structure verification along with IntelliJ Plugin Verifier
   verify:
     name: Verify plugin
+    # This is pretty slow and doesn't really need to run for PRs
+    if: github.event_name != 'pull_request'
     needs: [ build ]
     runs-on: ubuntu-latest
     steps:
