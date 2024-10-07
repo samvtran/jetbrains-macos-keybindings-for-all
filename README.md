@@ -55,7 +55,7 @@ them [here](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issu
 |                              Actions | macOS Keybindings                                                     | New Keybindings                               |
 |-------------------------------------:|-----------------------------------------------------------------------|-----------------------------------------------|
 |            ActivateProjectToolWindow | `Command-1`                                                           | `Alt-1`                                       |
-|          ActivateFavoritesToolWindow | `Command-2`                                                           | `Alt-2`                                       |
+|          ActivateBookmarksToolWindow | `Command-2`                                                           | `Alt-2`                                       |
 |               ActivateFindToolWindow | `Command-3`                                                           | `Alt-3`                                       |
 |                ActivateRunToolWindow | `Command-4`                                                           | `Alt-4`                                       |
 |              ActivateDebugToolWindow | `Command-5`                                                           | `Alt-5`                                       |
@@ -64,7 +64,7 @@ them [here](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issu
 |           ActivateServicesToolWindow | `Command-8`                                                           | `Alt-8`                                       |
 |     ActivateVersionControlToolWindow | `Command-9`                                                           | `Alt-9`                                       |
 |             ActivateCommitToolWindow | `Command-0`                                                           | `Alt-0`                                       |
-|                                 Back | `Command-[` <br> `Command-Alt-Left`                                   | `Control-[`                                   |
+|                                 Back | `Command-[` <br> `Command-Alt-Left`                                   | `Control-[` <br> `Control-Alt-Left`           |
 |                     ChangesView.Move | `Command-Shift-M`                                                     | `Control-Shift-M`                             |
 |             ChooseDebugConfiguration | `Control-Alt-D`                                                       | `Control-Alt-Shift-D`                         |
 |               ChooseRunConfiguration | `Control-Alt-R`                                                       | `Control-Alt-Shift-R`                         |
@@ -94,15 +94,14 @@ them [here](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issu
 |                    ExpandAllToLevel3 | `Command-Alt-NumPad[*] + 3`                                           | `Control-Alt-NumPad[*] + 3`                   |
 |                    ExpandAllToLevel4 | `Command-Alt-NumPad[*] + 4`                                           | `Control-Alt-NumPad[*] + 4`                   |
 |                    ExpandAllToLevel5 | `Command-Alt-NumPad[*] + 5`                                           | `Control-Alt-NumPad[*] + 5`                   |
-|                     ExportToTextFile | `Control-O`                                                           | `Control-Shift-O`                             |
-|        FileChooser.TogglePathShowing | `Command-P`                                                           | `Control-P`                                   |
+|                     ExportToTextFile | `Control-O`                                                           | `Control-Alt-Shift-O`                         |
+|            FileChooser.TogglePathBar | `Command-P`                                                           | `Control-P`                                   |
 |                                 Find | `Command-F`                                                           | `Control-F`                                   |
 |                           FindInPath | `Command-Shift-F`                                                     | `Control-Shift-F`                             |
 |                             FindNext | `Command-G`                                                           | `Control-Alt-G`                               |
 |                         FindPrevious | `Command-Shift-G`                                                     | `Alt-Shift-G`                                 |
-|                              Forward | `Command-]` <br> `Command-Alt-Right`                                  | `Control-]`                                   |
+|                              Forward | `Command-]` <br> `Command-Alt-Right`                                  | `Control-]` <br> `Control-Alt-Right`          |
 |                             Generate | `Command-N`                                                           | `Control-N`                                   |
-|                      GotoChangedFile | `Command-O`                                                           | `Control-O`                                   |
 |                            GotoClass | `Command-O`                                                           | `Control-O`                                   |
 |                             GotoFile | `Command-Shift-O`                                                     | `Control-Shift-O`                             |
 |                             GotoLine | `Command-L`                                                           | `Control-L`                                   |
@@ -116,11 +115,12 @@ them [here](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issu
 |                       NewScratchFile | `Command-Shift-N`                                                     | `Control-Shift-N`                             |
 |                        NextEditorTab | `Control-Shift-Right`                                                 | `Control-Alt-Shift-Right`                     |
 |                    NextProjectWindow | ``Command-Alt-` ``                                                    | ``Control-Alt-` ``                            |
-|                         NextSplitter | `Alt-Tab`                                                             | `Control-Alt-Left`                            |
+|                         NextSplitter | `Alt-Tab`                                                             | `Control-Alt-Shift-PageDown`                  |
 |                              NextTab | `Command-Shift-]`<br>`Control-Right`                                  | `Control-Shift-]`                             |
 |                      OptimizeImports | `Control-Alt-O`                                                       | `Control-Alt-Shift-O`                         |
 |                      OverrideMethods | `Control-O`                                                           | `Alt-Shift-O`                                 |
 |                    PreviousEditorTab | `Control-Shift-Left`                                                  | `Control-Alt-Shift-Left`                      |
+|                         PrevSplitter | `Alt-Shift-Tab`                                                       | `Control-Alt-Shift-PageUp`                    |
 |                PreviousProjectWindow | ``Command-Alt-Shift-` ``                                              | ``Control-Alt-Shift-` ``                      |
 |                     PreviousSplitter | `Alt-Shift-Tab`                                                       | `Control-Alt-Right`                           |
 |                          PreviousTab | `Command-Shift-[`<br>`Control-Left`                                   | `Control-Shift-[`                             |
@@ -170,7 +170,7 @@ them [here](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issu
 |                        EditorUp | `Control-P`                            | `Up`                       |
 |                        FindNext | `Control-L`                            | `F3`                       |
 |                    FindPrevious | `Control-Shift-L`                      | `Shift-F3`                 |
-|                         Forward | `Command-Alt-Right`                    | `Control-]`                
+|                         Forward | `Command-Alt-Right`                    | `Control-]`
 |                      RerunTests | `Command-Control-R`                    | `Alt-Shift-R`              |
 |                          Resume | `Command-Alt-R`                        | `F9`                       |
 |          Vcs.ShowMessageHistory | `Control-M`                            | `Control-E`                |
@@ -182,28 +182,33 @@ These keybindings are set by the [
 keymap
 and are not currently included, even if the macOS keymap defines them explicitly.
 
-|                          Actions | macOS Keybindings                                                     | $default Keybindings             |
-|---------------------------------:|-----------------------------------------------------------------------|----------------------------------|
-|    ChangesView.GroupBy.Directory | `Control-P`                                                           | `Control-Alt-P`                  |
-|       ChangesView.GroupBy.Module | `Control-M`                                                           | `Control-Alt-M`                  |
-|               Diff.ApplyLeftSide | `Control-Shift-Right`                                                 | `Alt-Shift-Right`                |
-|              Diff.ApplyRightSide | `Control-Shift-Left`                                                  | `Alt-Shift-Left`                 |
-|                     ForceRefresh | `Command-Alt-Shift-R`                                                 | `Control-Shift-F5`               |
-|                  GoToDeclaration | `Command-B` <br> `Command-click` <br> `Middle click` <br> Force touch | `Control-B` <br> `Control-click` |
-|                      RunToCursor | `Alt-F9` <br> Force touch                                             | `Alt-F9`                         |
-|   ServiceView.GroupByContributor | `Control-T`                                                           | `Control-Alt-T`                  |
-| ServiceView.GroupByServiceGroups | `Control-P`                                                           | `Control-Alt-P`                  |
-|       TodoViewGroupByShowModules | `Control-M`                                                           | `Control-Alt-M`                  |
-|      TodoViewGroupByShowPackages | `Control-P`                                                           | `Control-Alt-P`                  |
-|    TodoViewGroupByFlattenPackage | `Control-F`                                                           | `Control-Alt-C`                  |
-|            ToggleAmendCommitMode | `Control-Alt-M`                                                       | `Alt-M`                          |
-|            ToggleFindInSelection | `Control-Alt-E`                                                       | `Control-Alt-E`                  |
-|             UsageGrouping.Module | `Control-M`                                                           | `Control-Alt-M`                  |
-|          UsageGrouping.Directory | `Control-P`                                                           | `Control-Alt-P`                  |
-|          UsageGrouping.UsageType | `Control-T`                                                           | `Control-Alt-T`                  |
-|     UsageGrouping.FlattenModules | `Control-O`                                                           | `Control-Alt-O`                  |
-|      UsageGrouping.FileStructure | `Control-F`                                                           | `Control-Alt-F`                  |
-| UsageGrouping.DirectoryStructure | `Control-D`                                                           | `Control-Alt-D`                  |
+|                                                    Actions | macOS Keybindings                                                      | $default Keybindings             |
+|-----------------------------------------------------------:|------------------------------------------------------------------------|----------------------------------|
+|                                    ActivateNuGetToolWindow | `Command-Alt-7`                                                        | `Alt-Shift-7`                    |
+|                                ActivateUnitTestsToolWindow | `Command-Alt-8`                                                        | `Alt-Shift-8`                     |
+|                              ChangesView.GroupBy.Directory | `Control-P`                                                            | `Control-Alt-P`                  |
+|                                 ChangesView.GroupBy.Module | `Control-M`                                                            | `Control-Alt-M`                  |
+|                                         Diff.ApplyLeftSide | `Control-Shift-Right`                                                  | `Alt-Shift-Right`                |
+|                                        Diff.ApplyRightSide | `Control-Shift-Left`                                                   | `Alt-Shift-Left`                 |
+|                                               ForceRefresh | `Command-Alt-Shift-R`                                                  | `Control-Shift-F5`               |
+|                                            GoToDeclaration | `Command-B` <br> `Command-click` <br> `Middle click` <br> Force touch  | `Control-B` <br> `Control-click` |
+|                                                RunToCursor | `Alt-F9` <br> Force touch                                              | `Alt-F9`                         |
+|                             ServiceView.GroupByContributor | `Control-T`                                                            | `Control-Alt-T`                  |
+|                           ServiceView.GroupByServiceGroups | `Control-P`                                                            | `Control-Alt-P`                  |
+|                                 TodoViewGroupByShowModules | `Control-M`                                                            | `Control-Alt-M`                  |
+|                                TodoViewGroupByShowPackages | `Control-P`                                                            | `Control-Alt-P`                  |
+|                              TodoViewGroupByFlattenPackage | `Control-F`                                                            | `Control-Alt-C`                  |
+|                                      ToggleAmendCommitMode | `Control-Alt-M`                                                        | `Alt-M`                          |
+|                                      ToggleFindInSelection | `Control-Alt-E`                                                        | `Control-Alt-E`                  |
+|                                  UsageFiltering.ReadAccess | `Control-R`                                                            | `Control-R`                      |
+|                                 UsageFiltering.WriteAccess | `Control-W`                                                            | `Control-W`                      |
+|                                     UsageFiltering.Imports | `Control-I`                                                            | `Control-I`                      |
+|                                       UsageGrouping.Module | `Control-M`                                                            | `Control-Alt-M`                  |
+|                                    UsageGrouping.Directory | `Control-P`                                                            | `Control-Alt-P`                  |
+|                                    UsageGrouping.UsageType | `Control-T`                                                            | `Control-Alt-T`                  |
+|                               UsageGrouping.FlattenModules | `Control-O`                                                            | `Control-Alt-O`                  |
+|                                UsageGrouping.FileStructure | `Control-F`                                                            | `Control-Alt-F`                  |
+|                           UsageGrouping.DirectoryStructure | `Control-D`                                                            | `Control-Alt-D`                  |
 
 ## Missing/no-op Keybindings
 

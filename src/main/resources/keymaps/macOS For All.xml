@@ -506,12 +506,12 @@
     <keyboard-shortcut first-keystroke="control alt shift CLOSE_BRACKET"/>
   </action>
   <action id="Back">
-    <keyboard-shortcut first-keystroke="control alt RIGHT"/>
+    <keyboard-shortcut first-keystroke="control alt LEFT"/>
     <keyboard-shortcut first-keystroke="control OPEN_BRACKET"/>
     <mouse-shortcut keystroke="button4"/>
   </action>
   <action id="Forward">
-    <keyboard-shortcut first-keystroke="control alt LEFT"/>
+    <keyboard-shortcut first-keystroke="control alt RIGHT"/>
     <keyboard-shortcut first-keystroke="control CLOSE_BRACKET"/>
     <mouse-shortcut keystroke="button5"/>
   </action>
