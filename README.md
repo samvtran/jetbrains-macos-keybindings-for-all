@@ -1,11 +1,3 @@
-> [!TIP]
-> 👋 **Hello from April 2024!**
-> I use this keymap every single day. Please take the lack of updates as a testament to the
-> stability
-> of keyboard workflows despite recent UI overhauls across the JetBrains portfolio. If you notice
-> any issues,
-> please [let me know](https://github.com/samvtran/jetbrains-macos-keybindings-for-all/issues/new).
-
 # JetBrains macOS Keymap for Windows and Linux
 
 [![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/13968-macos-for-all?style=for-the-badge)](https://plugins.jetbrains.com/plugin/13968-macos-for-all)

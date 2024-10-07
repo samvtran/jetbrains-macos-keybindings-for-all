@@ -9,10 +9,10 @@
 
 ### Changed
 - Updated to match latest keymap as of [c670a48](https://github.com/JetBrains/intellij-community/blob/c670a481d5bd8656469f41c3ff6924d4f0d73fcd/platform/platform-resources/src/keymaps/Mac%20OS%20X%2010.5%2B.xml)
-- `Ctrl+Alt+←` updated to `Back` and removed from `PrevSplitter`
-- `Ctrl+Alt+→` updated to `Forward` and removed from `NextSplitter`
-- `NextSplitter` updated to `Ctrl+Alt+Shift+PageDown`, similar to VS Code
-- `PrevSplitter` updated to `Ctrl+Alt+Shift+PageUp`, similar to VS Code
+- `Back` updated to `Ctrl+Alt+←`
+- `Forward` updated to `Ctrl+Alt+→`
+- `NextSplitter` updated to `Ctrl+Alt+Shift+PageDown`
+- `PrevSplitter` updated to `Ctrl+Alt+Shift+PageUp`
 
 ### Removed
 - `GoToChangedFile` which was removed from _all_ JetBrains keymaps
