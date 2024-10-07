@@ -4,14 +4,19 @@
 
 [Unreleased]: https://github.com/samvtran/jetbrains-macos-keybindings-for-all/commits
 
+### Removed
+- `GoToChangedFile` which was removed from _all_ JetBrains keymaps
+- `FindPrevWordAtCaret` which is explicitly unbound in the macOS keymap
+
 ### Changed
 - Build dependencies updates
 - Plugin signing added
 - Adds GitHub Actions workflows
-- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>←</kbd> rebound from `PrevSplitter` to `Back`
-- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>→</kbd> rebound from `NextSplitter` to `Forward`
-- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>PageDown</kbd> bound to `NextSplitter`
-- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>PageUp</kbd> bound to `PrevSplitter`
+- `Ctrl+Alt+←` updated to `Back` and removed from `PrevSplitter`
+- `Ctrl+Alt+→` updated to `Forward` and removed from `NextSplitter`
+- `NextSplitter` updated to `Ctrl+Alt+Shift+PageDown`, similar to VS Code
+- `PrevSplitter` updated to `Ctrl+Alt+Shift+PageUp`, similar to VS Code 
+- `ExportToTextFile` updated to `Ctrl+Alt+Shift+O`, making `Ctrl+Alt+O` work for `GoToFile` when the Find pane is open
 
 ## [2.0.0] - 2020-09-24
 
