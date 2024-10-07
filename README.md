@@ -216,10 +216,11 @@ This list may change over time.
 
 ## FAQ
 
-### Oh no! My favorite keybinding changed after an update! What do I do?
+### Oh no! My favorite shortcut changed after an update! What do I do?
 
 This project tries to follow the macOS keybindings (still called "Mac OS X 10.5+" in the JetBrains
 codebase) as closely as possible.
+
 As new UI elements and IDE features are added, JetBrains may add and remove keybindings to
 better match their evolving feature set. If you find that your muscle memory is getting in the way
 of a new binding, make a copy of this keymap for your own custom shortcuts.
