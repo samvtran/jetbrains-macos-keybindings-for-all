@@ -1,5 +1,5 @@
 <keymap name="macOS For All" parent="$default" version="1" disable-mnemonics="true">
-  <action id="FileChooser.TogglePathShowing">
+  <action id="FileChooser.TogglePathBar">
     <keyboard-shortcut first-keystroke="control P"/>
   </action>
 
@@ -18,10 +18,10 @@
   </action>
 
   <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="control alt LEFT"/>
+    <keyboard-shortcut first-keystroke="control alt shift PAGE_DOWN"/>
   </action>
   <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="control alt RIGHT"/>
+    <keyboard-shortcut first-keystroke="control alt shift PAGE_UP"/>
   </action>
 
   <action id="ShowSettings">
@@ -190,7 +190,7 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1"/>
   </action>
-  <action id="ActivateFavoritesToolWindow">
+  <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="alt 2"/>
   </action>
   <action id="ActivateFindToolWindow">
@@ -229,7 +229,7 @@
     <keyboard-shortcut first-keystroke="control shift RIGHT"/>
   </action>
   <action id="ExportToTextFile">
-    <keyboard-shortcut first-keystroke="control shift O"/>
+    <keyboard-shortcut first-keystroke="control alt shift O"/>
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END"/>
@@ -394,9 +394,7 @@
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="control O"/>
   </action>
-  <action id="GotoChangedFile">
-    <keyboard-shortcut first-keystroke="control O"/>
-  </action>
+  <action id="GotoChangedFile" /> <!-- disabled in all JetBrains keymaps (cd54e00) -->
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="control alt O"/>
   </action>
@@ -469,6 +467,7 @@
   <action id="EditorScrollUp"/> <!-- Disables meta up -->
   <action id="EditorScrollDown"/>  <!-- Disables meta down -->
   <action id="FindWordAtCaret"/> <!-- Disables meta F3 -->
+  <action id="FindPrevWordAtCaret"/> <!-- Disables shift meta F3 -->
   <action id="EditorScrollToCenter"/> <!-- Disables meta M -->
 
   <action id="$Undo">
@@ -507,10 +506,12 @@
     <keyboard-shortcut first-keystroke="control alt shift CLOSE_BRACKET"/>
   </action>
   <action id="Back">
+    <keyboard-shortcut first-keystroke="control alt LEFT"/>
     <keyboard-shortcut first-keystroke="control OPEN_BRACKET"/>
     <mouse-shortcut keystroke="button4"/>
   </action>
   <action id="Forward">
+    <keyboard-shortcut first-keystroke="control alt RIGHT"/>
     <keyboard-shortcut first-keystroke="control CLOSE_BRACKET"/>
     <mouse-shortcut keystroke="button5"/>
   </action>
