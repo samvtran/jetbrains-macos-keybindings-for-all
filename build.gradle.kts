@@ -13,6 +13,9 @@ java {
     }
 }
 
+group = providers.gradleProperty("pluginGroup").get()
+version = providers.gradleProperty("pluginVersion").get()
+
 // Configure project's dependencies
 repositories {
     mavenCentral()
@@ -89,7 +92,6 @@ intellijPlatform {
 
 // Configure Gradle Changelog Plugin - read more: https://github.com/JetBrains/gradle-changelog-plugin
 changelog {
-    version.set(providers.gradleProperty("pluginVersion"))
     groups.empty()
     repositoryUrl = providers.gradleProperty("pluginRepositoryUrl")
 }
